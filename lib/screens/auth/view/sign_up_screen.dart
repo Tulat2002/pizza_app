@@ -208,7 +208,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               const SizedBox(height: 10),
               SizedBox(
                 width: MediaQuery.of(context).size.width * 0.9,
-                child: fMyTextField(
+                child: MyTextField(
                     controller: nameController,
                     hintText: 'Name',
                     obscureText: false,
