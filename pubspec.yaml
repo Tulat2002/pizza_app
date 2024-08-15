@@ -13,7 +13,7 @@ dependencies:
 
   cupertino_icons: ^1.0.6
 
-#  font_awesome_flutter: ^10.6.0
+  font_awesome_flutter: ^10.6.0
 
   firebase_core: ^2.16.0
 
@@ -23,8 +23,8 @@ dependencies:
 
   user_repository:
     path: packages/user_repository
-#  pizza_repository:
-#    path: packages/pizza_repository
+  pizza_repository:
+    path: packages/pizza_repository
 
 dev_dependencies:
   flutter_test:
@@ -35,3 +35,6 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+
+  assets:
+    - assets/
